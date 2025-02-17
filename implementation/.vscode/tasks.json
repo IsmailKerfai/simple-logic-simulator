@@ -1,0 +1,102 @@
+{
+    "version": "2.0.0",
+    "command": "bash",
+    "tasks": [
+        {
+            "label": "Run circuit01 with Address Sanitizer",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../examples/circuit01.yal", "CIRCUIT01", "../examples/library.yal"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run circuit02 with Address Sanitizer",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../examples/circuit02.yal", "CIRCUIT02", "../examples/library.yal"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run circuit03 with Address Sanitizer",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../examples/circuit03.yal", "CIRCUIT03", "../examples/library.yal"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run circuit04 with Address Sanitizer",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../examples/circuit04.yal", "CIRCUIT04", "../examples/library.yal"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run circuit05 with Address Sanitizer",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../examples/circuit05.yal", "CIRCUIT05", "../examples/library.yal"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run rca with Address Sanitizer",
+            "type": "shell",
+            "command": "${command:cmake.launchTargetPath}",
+            "args": ["../examples/rca.yal", "RCA", "../examples/library.yal"],
+            "options": {
+                "cwd": "${command:cmake.launchTargetDirectory}"
+            },
+            "problemMatcher": {
+                "base": "$gcc"
+            },
+            "dependsOn": [
+                "CMake: build"
+            ],
+            "group": "test"
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+##########################################################
+# EDA-Lab: Electronic Design Automation Programming Lab  #
+#                                                        #
+# (c) 2024                                               #
+# Institute of Microelectronic Systems (IMS)             #
+# Leibniz Universitaet Hannover                          #
+##########################################################
+
+Reading lib file: examples/library.yal
+Reading yal file: examples/circuit04.yal
+
+logic1
+logic1
+logic1
+logic1
+logic1
+logic1
+logic1
+logic0
+logic1
+logic1
+logic1
+logic1
+logic1
+logic1
+logic1
+logic0
+logic1
+logic1
+logic1
+logic1
+logic1
+logic1
+logic1
+logic0
+logic1
+logic1
+logic1
+logic1
+logic1
+logic1
+logic1
+logic0
